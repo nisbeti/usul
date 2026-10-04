@@ -2,6 +2,8 @@
 
 Reading sites for books on usul al-fiqh and related studies. Each book is a
 folder built with the new-book-engine (`minorities/`, more to come).
+Books kept in their own repo, with their own domain, are listed in
+`elsewhere.json` (maqasid, at maqasid.info) and get a card linking there.
 
 `index.html` is the brochure page, generated: after adding a book, run
 `python3 build_index.py`. Edit the look in `index.template.html`, not in
