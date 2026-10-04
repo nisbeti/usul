@@ -1,0 +1,44 @@
+{
+  "slug": "minorities",
+  "storage_key": "minorities",
+  "domain": null,
+  "dev_port": 8765,
+  "source": "source/نقض فقه الأقليات وبيان خطورته على الأقليات المسلمة.docx",
+  "metadata": {},
+  "title": {
+    "ar": "نقض فقه الأقليات",
+    "en": "Refutation of Minority Jurisprudence"
+  },
+  "subtitle": {
+    "ar": "وبيان خطورته على الأقليات المسلمة",
+    "en": "and Its Dangers to Muslim Minorities"
+  },
+  "description": "Refutation of Minority Jurisprudence and Its Dangers to Muslim Minorities - read the book in Arabic or English.",
+  "about_book": {
+    "ar": [
+      "يتناول هذا الكتاب «فقه الأقليات» بالنقد من جهة المنهج الأصولي، فيرى أن بعض فتاواه توسّعت في معاني المصلحة والمقاصد و«أخفّ الضررين» حتى خالفت نصوصاً قطعية، ويفرّق بين الضرورة الشرعية والضرورة العقلية، ويبيّن شروط المصلحة المرسلة المنضبطة.",
+      "ويعرض المؤلف أمثلة عملية، منها القروض الربوية لشراء البيوت، والزكاة والميراث، والتحاكم إلى المحاكم الوضعية، والمشاركة في الانتخابات الغربية، ويردّ على حجج المجيزين كقصة يوسف عليه السلام والنجاشي، ثم يفصّل قاعدة «أهون الشرّين» وضوابطها."
+    ],
+    "en": [
+      "This book criticizes “minority jurisprudence” (<em>fiqh al-aqalliyyat</em>) on the grounds of method in the principles of jurisprudence (<em>usul al-fiqh</em>). The author argues that some of its fatwas stretched the meanings of public interest (<em>maslaha</em>), the higher objectives (<em>maqasid</em>) and “the lesser of two harms” until they contradicted definitive texts, and he distinguishes necessity grounded in the Shari‘a from necessity judged by reason alone.",
+      "He works through practical examples, including interest-based mortgages, zakat and inheritance, recourse to secular courts and taking part in Western elections, answers the arguments of those who permit them, such as the stories of Yusuf and of the Najashi, and then sets out the maxim of “the lesser of two evils” and its conditions."
+    ]
+  },
+  "about_author": {
+    "ar": [
+      "ثائر أحمد سلامة، أبو مالك. 1447هـ - 2025م."
+    ],
+    "en": [
+      "Thaer Ahmad Salameh (Abu Malik). 1447 AH / 2025 CE."
+    ]
+  },
+  "index": {
+    "first_page": 47,
+    "sections": {
+      "الفهرس": "toc"
+    },
+    "toc_overrides": {},
+    "refs_fixed": true
+  },
+  "source_pdf": "source/نقض فقه الأقليات وبيان خطورته على الأقليات المسلمة.pdf"
+}
