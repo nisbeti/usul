@@ -1,0 +1,44 @@
+{
+  "slug": "mursalah",
+  "storage_key": "mursalah",
+  "domain": null,
+  "dev_port": 8765,
+  "source": "source/المصالح المرسلة مصححة.docx",
+  "metadata": {},
+  "title": {
+    "ar": "المصالح المرسلة",
+    "en": "Al-Maṣāliḥ al-Mursalah (Unrestricted Interests)"
+  },
+  "subtitle": {
+    "ar": "دراسة تحليلية ومناقشة فقهية وأصولية مع أمثلة تطبيقية",
+    "en": "An Analytical Study and a Jurisprudential and Usuli Discussion, with Practical Examples"
+  },
+  "description": "Al-Maṣāliḥ al-Mursalah (Unrestricted Interests): an analytical study of public interest as a source of legislation, with practical examples - read the book in Arabic or English.",
+  "about_book": {
+    "ar": [
+      "يبحث هذا الكتاب في المصالح المرسلة من حيث هي مصدر من مصادر التشريع، فيعرض أصول الفقه ومصادر التشريع وما اتُّفق عليه منها وما اختُلف فيه، ثم مقاصد الشريعة وعلة جلب المصالح ودرء المفاسد وأقسام المناسب والمصالح.",
+      "ثم يعرض أدلة القائلين بالمصالح المرسلة ويناقشها، ويبيّن ما قصده الشاطبي والقرافي وعز الدين بن عبد السلام والغزالي، ويردّ شبهتين، ويختم بمسألة القيام بالفعل بقصد المصلحة والفرق بين الرأي الشرعي وغير الشرعي. ويرى المؤلف أنها ليست دليلاً شرعياً."
+    ],
+    "en": [
+      "This book examines unrestricted public interest (<em>al-maslaha al-mursala</em>) as a source of legislation. It first sets out the principles of jurisprudence (<em>usul al-fiqh</em>) and the sources of legislation, those agreed upon and those disputed, then the objectives of the Shari‘a, the reason for securing benefit and preventing harm, and the kinds of suitability and of interests.",
+      "It then presents the arguments of those who accept unrestricted interests and discusses them, explains what al-Shatibi, al-Qarafi, Izz al-Din ibn Abd al-Salam and al-Ghazali meant, answers two objections, and closes on acting with the intention of securing an interest and on the difference between a Shari‘a-based opinion and one that is not. The author's conclusion is that it is not a legal proof."
+    ]
+  },
+  "about_author": {
+    "ar": [
+      "تأليف محمود عبد الكريم حسن. دار النهضة الإسلامية، بيروت. الطبعة الأولى 1415هـ - 1995م."
+    ],
+    "en": [
+      "By Mahmoud Abdul Karim Hassan. Dar al-Nahda al-Islamiyya, Beirut. First edition, 1415 AH / 1995 CE."
+    ]
+  },
+  "index": {
+    "first_page": 134,
+    "sections": {
+      "محتويات الكتاب": "toc"
+    },
+    "toc_overrides": {},
+    "refs_fixed": true
+  },
+  "source_pdf": "source/المصالح المرسلة مصححة.pdf"
+}
