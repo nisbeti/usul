@@ -8,7 +8,7 @@ elsewhere.json is a list of those books' folders, relative to this one (e.g.
 "../maqasid"); their book.json is read from there, so they need a domain.
 
 The page is built from each book's book.json: title (ar, en), about_book (en),
-domain. Optional keys read if present: "tile" (the short Arabic word on the
+domain, and about_book (ar) for the Arabic view. Optional keys read if present: "tile" (the short Arabic word on the
 card, default the title's first word) and "repo" (a Source link).
 A book with a domain links there; otherwise to its folder.
 """
@@ -22,13 +22,13 @@ HERE = Path(__file__).parent
 TEMPLATE = HERE / "index.template.html"
 
 
-def blurb(book: dict) -> str:
-    text = re.sub(r"<[^>]+>", "", " ".join(book["about_book"]["en"][:1]))
+def blurb(book: dict, lang: str = "en") -> str:
+    text = re.sub(r"<[^>]+>", "", " ".join(book["about_book"][lang][:1]))
     if len(text) <= 230:
         return text
     cut = text[:230]
     # a sentence end, not an abbreviation such as "(d. 790)"
-    ends = [m.start() for m in re.finditer(r"(?<=\w\w\w)[.;] ", cut)]
+    ends = [m.start() for m in re.finditer(r"(?<=\w\w\w)[.;؛] ", cut)]
     end = ends[-1] if ends else -1
     return (cut[: end + 1] if end > 80 else cut.rsplit(" ", 1)[0] + "…")
 
@@ -38,16 +38,18 @@ def card(folder: Path, book: dict) -> str:
     tile = book.get("tile") or title["ar"].split()[0]
     url = f"https://{book['domain']}/" if book.get("domain") else f"{folder.name}/"
     label = f"{book['domain']} →" if book.get("domain") else "Read the book →"
-    source = f'\n      <a class="src" href="{html.escape(book["repo"])}">Source</a>' if book.get("repo") else ""
+    label_ar = f"{book['domain']} ←" if book.get("domain") else "اقرأ الكتاب ←"
+    desc_ar = blurb(book, "ar") if book["about_book"].get("ar") else blurb(book)
+    source = f'\n      <a class="src" href="{html.escape(book["repo"])}" data-ar="المصدر">Source</a>' if book.get("repo") else ""
     return f"""  <article class="site">
     <div class="top">
       <div class="tile" aria-hidden="true">{html.escape(tile)}</div>
       <div class="names"><p class="ar" lang="ar">{html.escape(title['ar'])}</p><h2>{html.escape(title['en'])}</h2></div>
     </div>
-    <p class="kind">Book</p>
-    <p class="desc">{html.escape(blurb(book))}</p>
+    <p class="kind" data-ar="كتاب">Book</p>
+    <p class="desc" data-ar="{html.escape(desc_ar)}">{html.escape(blurb(book))}</p>
     <div class="links">
-      <a class="visit" href="{html.escape(url)}">{html.escape(label)}</a>{source}
+      <a class="visit" href="{html.escape(url)}" data-ar="{html.escape(label_ar)}">{html.escape(label)}</a>{source}
     </div>
   </article>
 """
