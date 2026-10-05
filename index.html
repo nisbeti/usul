@@ -147,6 +147,8 @@
     cursor: pointer; box-shadow: var(--shadow); white-space: nowrap;
   }
   .btn:hover { border-color: var(--accent); }
+  a.btn { gap: .4em; text-decoration: none; }
+  .toolbar .spacer { flex: 1; }
   .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
   #lang-toggle:lang(ar) { font-family: Amiri, serif; font-size: 1.1rem; }
   .icon-btn { width: 44px; padding: 0; }
@@ -169,6 +171,11 @@
 </head>
 <body>
 <div class="wrap toolbar">
+  <a id="all-sites" class="btn" href="https://nisbeti.github.io/all/">
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    <span data-ar="كل المواقع">All sites</span>
+  </a>
+  <span class="spacer"></span>
   <button id="lang-toggle" class="btn" type="button"></button>
   <button id="theme-toggle" class="btn icon-btn" type="button">
     <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
