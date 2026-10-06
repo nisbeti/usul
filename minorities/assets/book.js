@@ -6,6 +6,10 @@ window.BOOK = {
     "ar": "نقض فقه الأقليات",
     "en": "Refutation of Minority Jurisprudence"
   },
+  "feedback": {
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSff-a0SHkwz3jpEkg0emW7-hK9oI0TMBmrBHRnermrLYWdu7g/viewform",
+    "urlField": "entry.1782009901"
+  },
   "contents": [
     [
       1,
