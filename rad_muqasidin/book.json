@@ -1,0 +1,42 @@
+{
+  "slug": "rad-muqasidin",
+  "storage_key": "rad-muqasidin",
+  "domain": null,
+  "dev_port": 8770,
+  "source": "source/الرد على المقاصديين.docx",
+  "metadata": {},
+  "title": {
+    "ar": "الرد على المقاصديين",
+    "en": "A Reply to the Maqasidists"
+  },
+  "subtitle": {
+    "ar": "مفهوم نظرية المقاصد ومناقشة حجيتها",
+    "en": "The Concept of the Theory of Maqasid and a Discussion of Its Authority"
+  },
+  "description": "A Reply to the Maqasidists: a critique of the claim that the objectives of the Shari'a can override the texts, with a discussion of al-Shatibi's view - read the book in Arabic or English.",
+  "about_book": {
+    "ar": [
+      "يردّ هذا الكتاب على القائلين بالمقاصد حين يجعلونها دليلاً مستقلاً يُقدَّم على النصوص. فيبيّن مفهوم المقاصد عند القائلين بها وسبب قولهم بها، ثم يعرض أدلتهم في تقديم المصلحة ويناقشها واحداً واحداً.",
+      "ثم يعرض مفهوم المقاصد عند الشاطبي، ويبيّن تقسيمه لها إلى مقاصد أصلية وتابعة، ويناقش ما بُني على ذلك من أحكام."
+    ],
+    "en": [
+      "This book replies to those who treat the objectives of the Shari‘a (<em>maqasid</em>) as a free-standing proof that can override the texts. It sets out what the objectives mean for those who invoke them and why they do so, then takes their arguments for putting benefit (<em>maslaha</em>) first and answers them one by one.",
+      "It then gives al-Shatibi's understanding of the objectives, including his division of them into original and secondary objectives, and discusses the rulings that have been built on it."
+    ]
+  },
+  "about_author": {
+    "ar": [
+      "لا يذكر الملف اسم المؤلف ولا الناشر ولا الطبعة."
+    ],
+    "en": [
+      "The file gives no author, publisher or edition."
+    ]
+  },
+  "index": {
+    "first_page": null,
+    "sections": {},
+    "toc_overrides": {},
+    "refs_fixed": true
+  },
+  "source_pdf": "source/الرد على المقاصديين.docx.pdf"
+}
