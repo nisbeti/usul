@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-ar="أصول الفقه">Usul</title>
+<meta name="description" content="Books on the principles of Islamic jurisprudence, to read in Arabic and English.">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1c1814" media="(prefers-color-scheme: dark)">
+<script>
+  (function () {
+    var s = {};
+    try { s = JSON.parse(localStorage.getItem('nisbeti-index')) || {}; } catch (e) {}
+    var r = document.documentElement;
+    r.dataset.theme = s.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    if (s.lang === 'ar') { r.lang = 'ar'; r.dir = 'rtl'; }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f1e7;
+    --card: #fffdf8;
+    --ink: #2b241d;
+    --muted: #7a6d5f;
+    --line: #e6dccb;
+    --accent: #b5542a;
+    --accent-ink: #fffdf8;
+    --shadow: 0 1px 2px rgba(60, 40, 20, .05), 0 8px 24px rgba(60, 40, 20, .06);
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1814;
+    --card: #252019;
+    --ink: #efe6d8;
+    --muted: #a89a88;
+    --line: #3a3229;
+    --accent: #d0703f;
+    --accent-ink: #1c1814;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3), 0 8px 24px rgba(0, 0, 0, .25);
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 400 16px/1.6 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px; }
+
+  header.wrap { text-align: center; padding: 32px 16px 56px; }
+  .bismillah {
+    font-family: Amiri, serif;
+    font-size: clamp(26px, 5vw, 34px);
+    color: var(--accent);
+    margin: 0 0 20px;
+    direction: rtl;
+  }
+  h1 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 600;
+    font-size: clamp(36px, 7vw, 56px);
+    line-height: 1.1;
+    margin: 0 0 14px;
+    letter-spacing: -.01em;
+  }
+  .lede { color: var(--muted); max-width: 34em; margin: 0 auto; }
+  .rule {
+    width: 64px; height: 1px; background: var(--accent);
+    margin: 36px auto 0; opacity: .6;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap: 20px;
+    padding-bottom: 64px;
+  }
+  .site {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    transition: transform .2s ease, border-color .2s ease;
+  }
+  .site:hover { transform: translateY(-3px); border-color: var(--accent); }
+  .top { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
+  .tile {
+    flex: none;
+    width: 64px; height: 64px;
+    border-radius: 16px;
+    background: var(--accent);
+    color: var(--accent-ink);
+    display: grid; place-items: center;
+    font-family: Amiri, serif; font-weight: 700;
+    font-size: 18px; line-height: 1;
+    overflow: hidden;
+    direction: rtl;
+    padding-bottom: 6px;
+  }
+  .names { min-width: 0; }
+  .ar {
+    font-family: Amiri, serif; font-size: 22px; line-height: 1.3;
+    direction: rtl; text-align: left; margin: 0;
+  }
+  h2 {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    font-weight: 600; font-size: 24px; line-height: 1.2;
+    margin: 0;
+  }
+  .kind {
+    font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 8px;
+  }
+  .site p.desc { color: var(--muted); margin: 0 0 20px; font-size: 15px; flex: 1; }
+  .links { display: flex; gap: 16px; align-items: center; font-size: 14px; }
+  .links a { color: var(--muted); text-decoration: none; }
+  .links a:hover { color: var(--ink); }
+  .links a.visit {
+    color: var(--accent); font-weight: 500;
+  }
+  /* make the whole card clickable via the primary link */
+  .links a.visit::after { content: ""; position: absolute; inset: 0; border-radius: 18px; }
+  .links a.src { position: relative; z-index: 1; margin-inline-start: auto; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+
+  .toolbar {
+    display: flex; justify-content: flex-end; gap: 8px;
+    padding-top: 16px;
+  }
+  .btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-height: 44px; padding: .3em 1em;
+    border: 1px solid var(--line); border-radius: 999px;
+    background: var(--card); color: var(--ink);
+    font: inherit; font-size: 1rem; line-height: 1.2;
+    cursor: pointer; box-shadow: var(--shadow); white-space: nowrap;
+  }
+  .btn:hover { border-color: var(--accent); }
+  a.btn { gap: .4em; text-decoration: none; }
+  .toolbar .spacer { flex: 1; }
+  .btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  #lang-toggle:lang(ar) { font-family: Amiri, serif; font-size: 1.1rem; }
+  .icon-btn { width: 44px; padding: 0; }
+  .icon { width: 20px; height: 20px; flex: none; }
+  /* the theme button shows the mode you'll switch to */
+  .icon-sun { display: none; }
+  :root[data-theme="dark"] .icon-sun { display: block; }
+  :root[data-theme="dark"] .icon-moon { display: none; }
+
+  /* Arabic */
+  :root[lang="ar"] body { font-family: Amiri, serif; font-size: 18px; }
+  :root[lang="ar"] [data-ar] { font-family: Amiri, serif; letter-spacing: 0; }
+  :root[lang="ar"] h1[data-ar] { font-weight: 700; }
+  :root[lang="ar"] .kind { font-size: 15px; }
+  :root[lang="ar"] .site p.desc { font-size: 17px; }
+  :root[dir="rtl"] .ar { text-align: right; }
+
+  @media (prefers-reduced-motion: reduce) { .site { transition: none; } .site:hover { transform: none; } }
+</style>
+<script data-goatcounter="https://bahith.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+<div class="wrap toolbar">
+  <a id="all-sites" class="btn" href="https://nisbeti.github.io/all/">
+    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg>
+    <span data-ar="كل المواقع">All sites</span>
+  </a>
+  <span class="spacer"></span>
+  <button id="lang-toggle" class="btn" type="button"></button>
+  <button id="theme-toggle" class="btn icon-btn" type="button">
+    <svg class="icon icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    <svg class="icon icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+  </button>
+</div>
+<header class="wrap">
+  <p class="bismillah">بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+  <h1 data-ar="أصول الفقه">Usul</h1>
+  <p class="lede" data-ar="مواقع هادئة خالية من الإعلانات لقراءة كتب أصول الفقه وما يتصل بها، بالعربية والإنجليزية، على أي جهاز.">Quiet, ad-free reading sites for works on usul al-fiqh and related studies, in Arabic and English, on any device.</p>
+  <div class="rule"></div>
+</header>
+
+<main class="wrap grid">
+<!--CARDS--></main>
+
+<script>
+/* Theme and language toggles; the choice is shared by all the index pages. */
+(function () {
+  var KEY = 'nisbeti-index';
+  var root = document.documentElement;
+  function save(patch) {
+    var s = {};
+    try { s = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
+    for (var k in patch) s[k] = patch[k];
+    try { localStorage.setItem(KEY, JSON.stringify(s)); } catch (e) {}
+  }
+  var langBtn = document.getElementById('lang-toggle');
+  var themeBtn = document.getElementById('theme-toggle');
+  /* Elements with data-ar hold their Arabic text; the English is the page's own. */
+  function applyLang() {
+    var ar = root.lang === 'ar';
+    document.querySelectorAll('[data-ar]').forEach(function (el) {
+      if (el.dataset.en === undefined) el.dataset.en = el.textContent;
+      el.textContent = ar ? el.dataset.ar : el.dataset.en;
+    });
+    langBtn.textContent = ar ? 'English' : 'العربية';
+    langBtn.lang = ar ? 'en' : 'ar';
+    langBtn.title = ar ? 'View in English' : 'اعرض بالعربية';
+    var label = ar ? 'تبديل الوضع الداكن' : 'Toggle dark mode';
+    themeBtn.title = label;
+    themeBtn.setAttribute('aria-label', label);
+  }
+  window.applyLang = applyLang;
+  langBtn.addEventListener('click', function () {
+    var lang = root.lang === 'ar' ? 'en' : 'ar';
+    root.lang = lang;
+    root.dir = lang === 'ar' ? 'rtl' : 'ltr';
+    save({ lang: lang });
+    applyLang();
+  });
+  themeBtn.addEventListener('click', function () {
+    var theme = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = theme;
+    save({ theme: theme });
+  });
+  applyLang();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,302 @@
+[
+ {
+  "level": 1,
+  "page": 7,
+  "ar": "المقدمة",
+  "en": "Introduction"
+ },
+ {
+  "level": 1,
+  "page": 10,
+  "ar": "الفصل الأول",
+  "en": "Chapter One"
+ },
+ {
+  "level": 2,
+  "page": 11,
+  "ar": "أصول الفقه",
+  "en": "Principles of Jurisprudence (Usul al-fiqh)"
+ },
+ {
+  "level": 2,
+  "page": 13,
+  "ar": "الحاكم",
+  "en": "The Ruler"
+ },
+ {
+  "level": 2,
+  "page": 15,
+  "ar": "مصادر التشريع",
+  "en": "Sources of Legislation"
+ },
+ {
+  "level": 2,
+  "page": 15,
+  "ar": "تمهيد",
+  "en": "Preliminary"
+ },
+ {
+  "level": 2,
+  "page": 16,
+  "ar": "مصادر التشريع يجب أن تكون قطعية",
+  "en": "Sources of Legislation Must Be Definitive"
+ },
+ {
+  "level": 2,
+  "page": 17,
+  "ar": "مصادر متفق عليها",
+  "en": "Agreed-Upon Sources"
+ },
+ {
+  "level": 2,
+  "page": 18,
+  "ar": "المصدر الأول: الكتاب",
+  "en": "First Source: The Book (al-Kitab)"
+ },
+ {
+  "level": 2,
+  "page": 18,
+  "ar": "المصدر الثاني: السنة",
+  "en": "Second Source: The Sunnah"
+ },
+ {
+  "level": 2,
+  "page": 19,
+  "ar": "المصدر الثالث: الإجماع",
+  "en": "Third Source: Consensus (Ijma)"
+ },
+ {
+  "level": 2,
+  "page": 22,
+  "ar": "المصدر الرابع: القياس",
+  "en": "Fourth Source: Analogy (Qiyas)"
+ },
+ {
+  "level": 2,
+  "page": 24,
+  "ar": "مصادر غير متفق عليها",
+  "en": "Disputed Sources"
+ },
+ {
+  "level": 1,
+  "page": 29,
+  "ar": "الفصل الثاني",
+  "en": "Chapter Two"
+ },
+ {
+  "level": 2,
+  "page": 30,
+  "ar": "مقاصد الشريعة",
+  "en": "Objectives of the Sharia (Maqasid al-sharia)"
+ },
+ {
+  "level": 2,
+  "page": 33,
+  "ar": "مقاصد الشريعة هي غاياتها، أي نتائج تطبيقها",
+  "en": "The Objectives of the Sharia Are Its Goals, i.e., the Results of Its Application"
+ },
+ {
+  "level": 2,
+  "page": 35,
+  "ar": "مقاصد الشريعة ليست مقاصد للأحكام",
+  "en": "The Objectives of the Sharia Are Not Objectives of the Rulings"
+ },
+ {
+  "level": 2,
+  "page": 36,
+  "ar": "مقاصد الأحكام",
+  "en": "Objectives of the Rulings"
+ },
+ {
+  "level": 2,
+  "page": 41,
+  "ar": "جلب المصالح ودرء المفاسد",
+  "en": "Bringing About Benefits and Preventing Harms"
+ },
+ {
+  "level": 2,
+  "page": 44,
+  "ar": "علية جلب المصالح ودرء المفاسد",
+  "en": "The Cause of Bringing About Benefits and Preventing Harms"
+ },
+ {
+  "level": 2,
+  "page": 46,
+  "ar": "المناسب",
+  "en": "The appropriateness"
+ },
+ {
+  "level": 2,
+  "page": 48,
+  "ar": "أقسام المناسب",
+  "en": "Categories of appropriateness"
+ },
+ {
+  "level": 2,
+  "page": 50,
+  "ar": "أقسام المصالح",
+  "en": "Categories of public interests (masalih)"
+ },
+ {
+  "level": 1,
+  "page": 52,
+  "ar": "الفصل الثالث",
+  "en": "Chapter Three"
+ },
+ {
+  "level": 2,
+  "page": 53,
+  "ar": "المصالح المرسلة",
+  "en": "Unrestricted public interests (masalih mursala)"
+ },
+ {
+  "level": 2,
+  "page": 56,
+  "ar": "أدلة القائلين بالمصالح المرسلة",
+  "en": "Evidence from those who advocate unrestricted public interests"
+ },
+ {
+  "level": 2,
+  "page": 60,
+  "ar": "موقف العلماء من المصالح المرسلة",
+  "en": "Scholars' stance on unrestricted public interests"
+ },
+ {
+  "level": 2,
+  "page": 70,
+  "ar": "المصالح المرسلة ليست دليلاً شرعياً",
+  "en": "Unrestricted public interests are not a legal evidence"
+ },
+ {
+  "level": 2,
+  "page": 71,
+  "ar": "مناقشة الأدلة التي أوردها القائلون بالاستصلاح",
+  "en": "Discussion of the evidence presented by proponents of public interest (istislah)"
+ },
+ {
+  "level": 2,
+  "page": 71,
+  "ar": "الدليل الأول: اعتبار الشارع جنس المصالح في جنس الأحكام",
+  "en": "Evidence one: Considering the generality of public interests in the generality of rulings"
+ },
+ {
+  "level": 2,
+  "page": 76,
+  "ar": "الدليل الثاني: إقرار الرسول معاذاً",
+  "en": "Evidence two: The approval of the Messenger (peace and blessings be upon him) of Mu'adh"
+ },
+ {
+  "level": 2,
+  "page": 76,
+  "ar": "الدليل الثالث: الأصل في العادات الالتفات إلى المعاني",
+  "en": "Evidence three: The principle in customs is to pay attention to meanings"
+ },
+ {
+  "level": 2,
+  "page": 78,
+  "ar": "الدليل الرابع: تغير العادات وعدم كفاية النصوص",
+  "en": "Evidence four: The change of customs and the inadequacy of texts"
+ },
+ {
+  "level": 2,
+  "page": 79,
+  "ar": "الدليل الخامس: عشرة أمثلة من أعمال الصحابة، وجملة من أعمال التابعين",
+  "en": "Evidence five: Ten examples from the actions of the Companions, and a number of actions of the Followers"
+ },
+ {
+  "level": 2,
+  "page": 96,
+  "ar": "الأدلة على أن المصالح ليست دليلاً شرعياً",
+  "en": "Evidence that public interests are not a legal evidence"
+ },
+ {
+  "level": 1,
+  "page": 100,
+  "ar": "الفصل الرابع",
+  "en": "Chapter Four"
+ },
+ {
+  "level": 2,
+  "page": 101,
+  "ar": "ماذا قصد العلماء الذين قالوا بالمصالح المرسلة؟",
+  "en": "What did the scholars who advocated unrestricted public interests mean?"
+ },
+ {
+  "level": 2,
+  "page": 103,
+  "ar": "رأي الإمام الشاطبي",
+  "en": "The opinion of Imam al-Shatibi"
+ },
+ {
+  "level": 2,
+  "page": 108,
+  "ar": "رأي الإمام القرافي",
+  "en": "The opinion of Imam al-Qarafi"
+ },
+ {
+  "level": 2,
+  "page": 110,
+  "ar": "رأي ثلة من العلماء المعاصرين",
+  "en": "The opinion of a group of contemporary scholars"
+ },
+ {
+  "level": 2,
+  "page": 112,
+  "ar": "المصلحة عن الإمام عز الدين بن عبد السلام",
+  "en": "The interests according to Imam Izz al-Din ibn Abd al-Salam"
+ },
+ {
+  "level": 2,
+  "page": 114,
+  "ar": "المصلحة عند الإمام الغزالي",
+  "en": "The interests according to Imam al-Ghazali"
+ },
+ {
+  "level": 2,
+  "page": 119,
+  "ar": "رد شبهتين",
+  "en": "Refuting two doubts"
+ },
+ {
+  "level": 2,
+  "page": 119,
+  "ar": "الشبهة الأولى: إن هناك مصالح معتبرة ومصالح ملغاة، ومصالح لا معتبرة ولا ملغاة",
+  "en": "The first doubt: That there are recognized interests and nullified interests, and interests that are neither recognized nor nullified"
+ },
+ {
+  "level": 2,
+  "page": 120,
+  "ar": "الشبهة الثانية: تقييد المصلحة بأن لا تكن مخالفة لنص أو إجماع أو قياس",
+  "en": "The second doubt: Restricting the interest so that it does not contradict a text, consensus, or analogy"
+ },
+ {
+  "level": 1,
+  "page": 126,
+  "ar": "الخاتمة",
+  "en": "Conclusion"
+ },
+ {
+  "level": 2,
+  "page": 127,
+  "ar": "القيام بالفعل بقصد المصلحة",
+  "en": "Acting with the intention of interest"
+ },
+ {
+  "level": 2,
+  "page": 129,
+  "ar": "الرأي الشرعي والرأي غير الشرعي",
+  "en": "Sharia opinion and non-Sharia opinion"
+ },
+ {
+  "level": 1,
+  "page": 131,
+  "ar": "فهرست المصادر والمراجع",
+  "en": "Index of sources and references"
+ },
+ {
+  "level": 1,
+  "page": 134,
+  "ar": "محتويات الكتاب",
+  "en": "Contents of the book"
+ }
+]
