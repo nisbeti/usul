@@ -1,0 +1,46 @@
+{
+  "slug": "jahil",
+  "storage_key": "jahil",
+  "domain": null,
+  "dev_port": 8777,
+  "source": "source/حكم الجاهل والمتأول .docx",
+  "metadata": {},
+  "title": {
+    "ar": "العذر بالجهل والتأويل",
+    "en": "Excusing Ignorance and Interpretive Error"
+  },
+  "subtitle": {
+    "ar": "حكم الجاهل والمتأول",
+    "en": "The Ruling on the Ignorant and on One Who Errs by Interpretation"
+  },
+  "description": "Excusing Ignorance and Interpretive Error: a study of whether a Muslim who is ignorant of, or misinterprets, a matter of belief is declared an unbeliever - read the book in Arabic or English.",
+  "about_book": {
+    "ar": [
+      "يبحث هذا الكتاب في حكم الجاهل والمتأول من أهل القبلة: هل يُعذر من شهد الشهادتين وآمن الإيمان المجمل إذا جهل شيئاً من الاعتقاد أو أخطأ فيه متأولاً؟ ويعرض أقوال العلماء في العذر بالجهل، وجاهل الصفة، وقيام الحجة ببلوغ الكتاب والسنة، ومسألة إفادة خبر الآحاد العلم، مع نقول كثيرة عن ابن حزم وابن تيمية وابن القيم وغيرهم.",
+      "ويقصد المؤلف إلى الصلح بين طائفتين: طائفة لا تعذر المتأول فتكفّره وتكفّر من عذره، وطائفة تعذره لكنها ترمي الأولى بأنها من الخوارج. فيناقش هل من لا يعذر بالجهل متأولاً يُعدّ خارجياً، ويختم بأنواع التكفير ومراتبها."
+    ],
+    "en": [
+      "This book examines the ruling on the ignorant and on one who errs by interpretation (<em>ta'wil</em>) among the people of the qibla: is someone who has testified to the two testimonies of faith excused when he is ignorant of a matter of belief, or holds a mistaken view of it through interpretation? It sets out the scholars' views on excusing ignorance, on one ignorant of an attribute of Allah, on how the proof is established by the Qur'an and Sunna reaching a person, and on whether a solitary report (<em>khabar al-ahad</em>) gives knowledge, quoting at length from Ibn Hazm, Ibn Taymiyya, Ibn al-Qayyim and others.",
+      "Its aim is to reconcile two groups: one that does not excuse the interpreter, declaring him and those who excuse him unbelievers, and one that excuses him but calls the first group Kharijites. It asks whether one who does not excuse ignorance or interpretation is a Kharijite, and closes on the kinds and degrees of declaring someone an unbeliever (<em>takfir</em>)."
+    ]
+  },
+  "about_author": {
+    "ar": [
+      "لا يذكر الملف اسم المؤلف ولا الناشر ولا الطبعة."
+    ],
+    "en": [
+      "The file gives no author, publisher or edition."
+    ]
+  },
+  "index": {
+    "first_page": null,
+    "sections": {},
+    "toc_overrides": {},
+    "refs_fixed": true
+  },
+  "source_pdf": "source/حكم الجاهل والمتأول .pdf",
+  "feedback": {
+    "form": "https://docs.google.com/forms/d/e/1FAIpQLSff-a0SHkwz3jpEkg0emW7-hK9oI0TMBmrBHRnermrLYWdu7g/viewform",
+    "url_field": "entry.1782009901"
+  }
+}
