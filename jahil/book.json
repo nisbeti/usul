@@ -42,5 +42,6 @@
   "feedback": {
     "form": "https://docs.google.com/forms/d/e/1FAIpQLSff-a0SHkwz3jpEkg0emW7-hK9oI0TMBmrBHRnermrLYWdu7g/viewform",
     "url_field": "entry.1782009901"
-  }
+  },
+  "all_sites_link": false
 }
